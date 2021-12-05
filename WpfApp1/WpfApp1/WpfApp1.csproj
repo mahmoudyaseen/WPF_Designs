@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\FontAwesome.otf" />
+    <None Remove="Images\diamond.png" />
+    <None Remove="Images\fire.png" />
+    <None Remove="Images\rocket.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\FontAwesome.otf" />
+    <Resource Include="Images\diamond.png" />
+    <Resource Include="Images\fire.png" />
+    <Resource Include="Images\rocket.png" />
+  </ItemGroup>
+
+</Project>
